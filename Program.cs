@@ -9,29 +9,29 @@ class Program
 
         // Задание №2
 
-        short shortVariable = -10;
-        ushort unsignShortVariale = 10;
-        int integerVariable = -70000;
-        uint unsignIntegerVairable = 3000000000;
-        long longVariable = -100;
-        ulong unsignLongVariable = 200;
-        string text = "heelo world";
-        double doubleVariable = 10;
-        float floatVariable = 10f;
-        Boolean trueFalseSign = true;
-        char znak = '1';
+        short angle = -10;
+        ushort colorNumber = 10;
+        int cardBalanceRub = -70000;
+        uint paymentRub = 3000000000;
+        long cardBalanceUsd = -100;
+        ulong lenght = 200;
+        string introText = "heelo world";
+        double detailedBalanceRub = 10.2;
+        float detailedBalanceUsd = 10.6f;
+        Boolean balanceIsPositive = true;
+        char currency = '$';
 
-        Console.WriteLine(shortVariable);
-        Console.WriteLine(unsignShortVariale);
-        Console.WriteLine(integerVariable);
-        Console.WriteLine(unsignIntegerVairable);
-        Console.WriteLine(longVariable);
-        Console.WriteLine(unsignLongVariable);
-        Console.WriteLine(text);
-        Console.WriteLine(doubleVariable);
-        Console.WriteLine(trueFalseSign);
-        Console.WriteLine(znak);
-
+        Console.WriteLine(angle);
+        Console.WriteLine(colorNumber);
+        Console.WriteLine(cardBalanceRub);
+        Console.WriteLine(cardBalanceUsd);
+        Console.WriteLine(paymentRub);
+        Console.WriteLine(lenght);
+        Console.WriteLine(introText);
+        Console.WriteLine(detailedBalanceRub);
+        Console.WriteLine(detailedBalanceUsd);
+        Console.WriteLine(balanceIsPositive);
+        Console.WriteLine(currency);
 
         /*
         // Объявление без инициализации
